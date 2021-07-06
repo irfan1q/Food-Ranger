@@ -14,16 +14,28 @@ body{
 }
 /* ==============header section================== */
 .header-sec{
-  height: 120px;
+  height: 130px;
   background: linear-gradient(#EC2D48,#EA5F75);
 }
-.header-sec img{
-  height: 120px;
-}
+  .menu{
+    text-align: center;
+  }
+  .menu li {
+    display: inline-block;
+    margin: 50px 0px 0px 20px;
+  }
+  .menu li a {
+    padding: 10px 20px;
+    background: #f08394;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
 .inner-header h1{
-  color: white;
+  color: #fdeaec;
   font-size: 50px;
-  margin: 6%;
+  margin: 5%;
   font-weight: 700;
 }
 /* ========= TOP BANNER ============*/
