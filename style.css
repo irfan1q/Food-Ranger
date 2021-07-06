@@ -68,8 +68,6 @@ body{
   height: 250px;
   width: 250px;
 }
-.about-left{
-}
 .about-right{
   margin: 5%;
 }
@@ -182,7 +180,7 @@ body{
 .payment img {
   display: block;
   height: 80px;
-  weight: 100px;
+  width: 100px;
   border: solid 3px wheat;
   border-radius: 5px;
   margin: 0 auto;
