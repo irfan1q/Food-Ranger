@@ -1,0 +1,221 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+}
+.flexible{
+  display: flex;
+}
+.half-width{
+  width: 50%;
+}
+/* ==============header section================== */
+.header-sec{
+  height: 120px;
+  background: linear-gradient(#EC2D48,#EA5F75);
+}
+.header-sec img{
+  height: 120px;
+}
+.inner-header h1{
+  color: white;
+  font-size: 50px;
+  margin: 6%;
+  font-weight: 700;
+}
+/* ========= TOP BANNER ============*/
+.top-banner{
+  height: 700px;
+
+}
+.top-left{
+  margin: 150px 20px 20px 50px;
+}
+.top-left h1{
+  font-size: 60px;
+  font-weight: 700px;
+}
+.top-left span {
+  color: #EA5F75;
+}
+.order-button{
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(#EC2D48,#EA5F75);
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 12px 45px;
+  margin-top: 30px;
+}
+.top-right img{
+  height: 70%;
+  width: 70%;
+  margin: 100px 0px 20px 130px;
+}
+/* =========ABOUT-SECTION============= */
+.about-sec{
+  height: 500px;
+  background-image: url(images/shapes/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.about-left img{
+  margin: 15%;
+  height: 250px;
+  width: 250px;
+}
+.about-left{
+}
+.about-right{
+  margin: 5%;
+}
+.about-right h1{
+  font-size: 35px;
+  font-weight: 700;
+}
+.about-right p{
+  font-size: 18px;
+  text-align: justify;
+  line-height: 25px;
+}
+/* =========Recipies Section========== */
+.recipies-sec{
+  height: 800px;
+}
+.my-recipies{
+  text-align: center;
+  padding-top: 30px;
+}
+.my-recipies h1{
+  font-size: 35px;
+  font-weight: 700;
+  padding: 20px;
+}
+.my-recipies p{
+  font-size: 18px;
+}
+/* ============recipies card======================== */
+.recipies-card{
+  height: 600px;
+}
+.card-1{
+  width: 30%;
+  margin: 3%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 3px 3px 20px #f5c3ca, -3px -3px 20px #f5c3ca;
+}
+.card-2{
+  width: 30%;
+  margin: 3%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 3px 3px 20px #f5c3ca, -3px -3px 20px #f5c3ca;
+}
+.card-3{
+  width: 30%;
+  margin: 3%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 3px 3px 20px #f5c3ca, -3px -3px 20px #f5c3ca;
+}
+.food-img{
+  height: 250px;
+  width: 347px;
+  margin: 3%;
+}
+.food-text{
+  font-size: 35px;
+  font-weight: 700;
+  padding: 20px 0px 20px 20px;
+}
+.food-p{
+  font-size: 20px;
+  text-align: justify;
+  line-height: 25px;
+  padding: 10px 20px 5px 20px;
+}
+
+/* ==============last-content============== */
+.last-content{
+  height: 250px;
+}
+.count1{
+  width: 15%;
+  margin: 2% 0% 2% 15%;
+}
+.count2{
+  width: 15%;
+  margin: 2% 0% 2% 15%;
+}
+.count3{
+  width: 15%;
+  margin: 2% 0% 2% 15%;
+}
+.count-box{
+  background: #FDEAEC;
+  border-radius: 15px;
+  margin: 2% 3%;
+  padding: 3% 0%;
+  box-shadow: 3px 3px 20px #f5c3ca, -3px -3px 20px #f5c3ca;
+}
+.count-box h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+/* =================bonus-section============== */
+.bonus-section{
+  height: 150px;
+}
+.payment{
+  width: 40%;
+}
+.payment h1{
+  color: #EC2D48;
+  margin-left: 180px;
+  padding: 10px;
+}
+.payment img {
+  display: block;
+  height: 80px;
+  weight: 100px;
+  border: solid 3px wheat;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.top-button-box{
+  width: 40%;
+  margin: 50px 0px 10px 200px;
+}
+.top-button{
+  width: 40%;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(#EC2D48,#EA5F75);
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 12px 45px;
+  margin-top: 50px;
+}
+/* =======================footer-section===================== */
+#footer-area{
+  background: #b89fa2;
+  height: 140px;
+}
+.span-color{
+  color: #EA5F75;
+}
+.footer-h1{
+  text-align: center;
+  padding: 1%;
+}
+.footer-h3{
+  text-align: center;
+}
+.footer-p{
+  text-align: center;
+}
